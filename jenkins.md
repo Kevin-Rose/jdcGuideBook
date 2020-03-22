@@ -80,7 +80,6 @@ Mar 22, 2020 11:42:07 AM org.eclipse.jetty.util.log.Log initialized
 INFO: Logging initialized @7455ms to org.eclipse.jetty.util.log.JavaUtilLog
 Mar 22, 2020 11:42:10 AM winstone.Logger logInternal
 INFO: Beginning extraction from war file
-
 ```
 
 ```
