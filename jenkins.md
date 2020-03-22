@@ -70,7 +70,5 @@ service jenkins start/stop/restart
 首次进入会要求输入初始密码如下图，  
 初始密码在：/var/lib/jenkins/secrets/initialAdminPassword
 
-![](https://images2018.cnblogs.com/blog/463776/201804/463776-20180404082707338-423425522.png)
 
-选择“Install suggested plugins”安装默认的插件，下面Jenkins就会自己去下载相关的插件进行安装。
 
