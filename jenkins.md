@@ -1,9 +1,7 @@
 **1、安装JDK**
 
 ```
-yum
-install
- -y java
+yum install -y java
 ```
 
 **2、安装jenkins**
@@ -12,10 +10,7 @@ install
 
 ```
 1
-wget
- -O /etc/
-yum
-.repos.d/jenkins.repo http:
+wget -O /etc/yum.repos.d/jenkins.repo http:
 //
 pkg.jenkins-ci.org/redhat/jenkins.repo
 2
@@ -28,7 +23,7 @@ install
  -y jenkins
 ```
 
-如果不能安装就到官网下载jenkis的rmp包，官网地址（http://pkg.jenkins-ci.org/redhat-stable/）
+如果不能安装就到官网下载jenkis的rmp包，官网地址（[http://pkg.jenkins-ci.org/redhat-stable/）](http://pkg.jenkins-ci.org/redhat-stable/）)
 
 ```
 1
@@ -55,7 +50,7 @@ vi
 
 找到修改端口号：
 
-JENKINS\_PORT="8080"  此端口不冲突可以不修改 
+JENKINS\_PORT="8080"  此端口不冲突可以不修改
 
 **3、启动jenkins**
 
@@ -71,11 +66,11 @@ service jenkins start/stop/restart
 
 **4、打开jenkins**
 
-在浏览器中访问   
-首次进入会要求输入初始密码如下图，   
-初始密码在：/var/lib/jenkins/secrets/initialAdminPassword 
+在浏览器中访问  
+首次进入会要求输入初始密码如下图，  
+初始密码在：/var/lib/jenkins/secrets/initialAdminPassword
 
 ![](https://images2018.cnblogs.com/blog/463776/201804/463776-20180404082707338-423425522.png)
 
-选择“Install suggested plugins”安装默认的插件，下面Jenkins就会自己去下载相关的插件进行安装。 
+选择“Install suggested plugins”安装默认的插件，下面Jenkins就会自己去下载相关的插件进行安装。
 
