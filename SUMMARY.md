@@ -13,6 +13,7 @@
   * [JenKins](jenkins.md)
     * [配置Git项目](jenkins/pei-zhi-git-xiang-mu.md)
     * [配置SVN项目](jenkins/pei-zhi-svn-xiang-mu.md)
+  * GitCentOS
 * [开发环境准备](jdkan-zhuang/kai-fa-huan-jing-zhun-bei.md)
 * [部署环境准备](bu-shu-huan-jing-zhun-bei.md)
 * 前端开发
