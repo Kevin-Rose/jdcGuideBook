@@ -1,4 +1,6 @@
-**1、安装JDK**
+```
+1、安装JDK
+```
 
 ```
 yum install -y java
@@ -70,10 +72,18 @@ service jenkins start/stop/restart
 首次进入会要求输入初始密码如下图，  
 初始密码在：/var/lib/jenkins/secrets/initialAdminPassword
 
-
+```
+[root@jdc jenkins]# java -jar jenkins.war
+Running from: /root/web/jenkins/jenkins.war
+webroot: $user.home/.jenkins
+Mar 22, 2020 11:42:07 AM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @7455ms to org.eclipse.jetty.util.log.JavaUtilLog
+Mar 22, 2020 11:42:10 AM winstone.Logger logInternal
+INFO: Beginning extraction from war file
 
 ```
 
+```
 
 ```
 
