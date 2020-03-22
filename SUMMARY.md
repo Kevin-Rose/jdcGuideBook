@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [需求描述 ](xu-qiu-miao-shu.md)
 * [基础环境准备](ji-chu-huan-jing-zhun-bei.md)
   * [安装清单](ji-chu-huan-jing-zhun-bei/an-zhuang-qing-dan.md)
 * [基础工具安装](ji-chu-gong-ju-an-zhuang.md)
@@ -11,5 +12,7 @@
   * [SVN安装](svnan-zhuang.md)
 * [开发环境准备](jdkan-zhuang/kai-fa-huan-jing-zhun-bei.md)
 * [部署环境准备](bu-shu-huan-jing-zhun-bei.md)
-* 需求描述 
+* 前端开发
+* 后端开发
+* 运维
 
