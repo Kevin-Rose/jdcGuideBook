@@ -50,8 +50,6 @@ cd gitspace
 
 创建1个readme，执行git status ./
 
-
-
 git add该文件：
 
 ```
@@ -63,8 +61,6 @@ git add该文件：
 ```
 
 再使用git status查看：
-
-
 
 readme已经加入暂存区，但还没提交本地仓库
 
@@ -78,29 +74,21 @@ add readme
 "
 ```
 
-
-
 提交后查看，本地已经没有需要提交的记录。
 
 4.配置远程仓库：
 
-1）先在自己的linux服务器本地生成ssh key，使用命令 “ssh-keygen -t rsa -C "your\_email@youremail.com"”，your\_email是你的email，执行时一路按回车就行，这会在当前用户下生成1个公钥id\_rsa.pub和一个私钥id\_rsa,id\_rsa.pub后面配置git要用到。
+1）先在自己的linux服务器本地生成ssh key，
 
-
+  使用命令 “ssh-keygen -t rsa -C "javaandroidc@qq.com"”，your\_email是你的email，执行时一路按回车就行，这会在当前用户下生成1个公钥id\_rsa.pub和一个私钥id\_rsa,id\_rsa.pub后面配置git要用到。
 
 2\)在github上注册一个新用户，注册成功后，在settings设置ssh key：
 
 settings:
 
-
-
 设置ssh key：
 
-
-
 ssh key为前面服务器上的id\_rsa.pub，打开整个拷贝到key中：
-
-
 
 添加成功后，点击+号新增一个仓库：new repository
 
