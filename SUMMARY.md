@@ -17,7 +17,7 @@
   * [NGIX](ngix.md)
 * [开发环境准备](jdkan-zhuang/kai-fa-huan-jing-zhun-bei.md)
 * [部署环境准备](bu-shu-huan-jing-zhun-bei.md)
-* 前端开发
-* 后端开发
-* 运维
+* [前端开发](qian-duan-kai-fa.md)
+* [后端开发](hou-duan-kai-fa.md)
+* [运维](yun-wei.md)
 
