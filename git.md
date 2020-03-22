@@ -4,7 +4,7 @@
 
 ## \*\*1.下载git，使用命令：
 
-\*\*
+\*\*https://github.com/Kevin-Rose/jdcGuideBook
 
 #### \*\*
 
