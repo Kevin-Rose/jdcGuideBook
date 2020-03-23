@@ -21,38 +21,29 @@ nginx -c /path/to/nginx.conf
 平滑重启nginx：  
 kill -HUP 主进程号
 
-
-
-
-
-`[root@jdc /]# yum -y install httpd-tools`
-
-
+`[root@jdc /]# yum -y install httpd-tools`
 
 默认情况下，nginx自带安装了`ngx_http_auth_basic_module`模块，我们只需要用第三方工具设置用户名、密码，保存到文件中，并在nginx配置中开启访问验证即可。
 
-## 使用htpasswd生成密码
+## 使用htpasswd生成密码 
 
-安装 htpasswd
-
-```
-$ yum  -y install httpd-tools
+####  1.安装 htpasswd
 
 ```
-
-设置账号密码
-
-```
-$ sudo htpasswd -c /etc/nginxpasswd username
-
+$ yum  -y install httpd-tool
 ```
 
-按照提示输入密码，就在`/usr/local/nginx`目录下的passwd中保存了账号密码
+ 2.设置账号密码
+
+```
+$ sudo htpasswd -c /etc/nginx/passwd username
+```
+
+1. 按照提示输入密码，就在/etc/nginx目录下的passwd中保存了账号密码
 
 ```
 $ more passwd 
 username:$apr1$b2RIEmiN$yxkWM7HUJb9VoyDyek4Kg0
-
 ```
 
 ## nginx配置开启验证
@@ -64,7 +55,6 @@ location / {
     auth_basic "What are you want to do?";
     auth_basic_user_file /usr/local/nginx/passwd;
 }
-
 ```
 
 nginx -s reload  ：修改配置后重新加载生效
