@@ -8,6 +8,7 @@
   * [GitBook](gitbook.md)
   * [JDK安装](jdkan-zhuang.md)
   * [MySQL](mysql.md)
+    * [install MySQL](mysql/install-mysql.md)
   * [禅道安装](shan-dao-an-zhuang.md)
   * [SVN安装](svnan-zhuang.md)
   * [JenKins](jenkins.md)
