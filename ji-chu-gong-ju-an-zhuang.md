@@ -3,10 +3,7 @@
 1.下载git，使用命令：
 
 ```
-1
-yum
-install
- git
+1 yum install  git
 ```
 
 2.配置git：
@@ -36,14 +33,11 @@ email@example.com
 #创建目录
 
 2
-mkdir
- gitspace
+mkdir gitspace
 
-3
-cd gitspace
+3 cd gitspace
 
-4
- git init
+4 git init
 ```
 
 这时git本地仓库已经搭好了，测试一下：
@@ -53,11 +47,9 @@ cd gitspace
 git add该文件：
 
 ```
-1
-#git add .添加所有文件
+1#git add .添加所有文件
 
-2
- git add readme
+2git add readme
 ```
 
 再使用git status查看：
@@ -67,11 +59,7 @@ readme已经加入暂存区，但还没提交本地仓库
 再使用git commit提交：
 
 ```
-1
- git commit -m 
-"
-add readme
-"
+1 git commit -m "add readme"
 ```
 
 提交后查看，本地已经没有需要提交的记录。
@@ -80,7 +68,7 @@ add readme
 
 1）先在自己的linux服务器本地生成ssh key，
 
-  使用命令 “ssh-keygen -t rsa -C "javaandroidc@qq.com"”，your\_email是你的email，执行时一路按回车就行，这会在当前用户下生成1个公钥id\_rsa.pub和一个私钥id\_rsa,id\_rsa.pub后面配置git要用到。
+使用命令 “ssh-keygen -t rsa -C "javaandroidc@qq.com"”，your\_email是你的email，执行时一路按回车就行，这会在当前用户下生成1个公钥id\_rsa.pub和一个私钥id\_rsa,id\_rsa.pub后面配置git要用到。
 
 2\)在github上注册一个新用户，注册成功后，在settings设置ssh key：
 
