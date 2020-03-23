@@ -11,6 +11,7 @@
     * [install MySQL](mysql/install-mysql.md)
   * [禅道安装](shan-dao-an-zhuang.md)
   * [SVN安装](svnan-zhuang.md)
+    * [install](svnan-zhuang/install.md)
   * [JenKins](jenkins.md)
     * [配置Git项目](jenkins/pei-zhi-git-xiang-mu.md)
     * [配置SVN项目](jenkins/pei-zhi-svn-xiang-mu.md)
