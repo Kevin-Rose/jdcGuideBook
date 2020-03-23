@@ -25,15 +25,15 @@ kill -HUP 主进程号
 
 默认情况下，nginx自带安装了`ngx_http_auth_basic_module`模块，我们只需要用第三方工具设置用户名、密码，保存到文件中，并在nginx配置中开启访问验证即可。
 
-## 使用htpasswd生成密码 
+# 强制账号密码访问：
 
-####  1.安装 htpasswd
+#### 1.安装 htpasswd
 
 ```
 $ yum  -y install httpd-tool
 ```
 
- 2.设置账号密码
+#### 2.设置账号密码
 
 ```
 $ sudo htpasswd -c /etc/nginx/passwd username
