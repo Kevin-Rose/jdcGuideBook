@@ -24,5 +24,6 @@
 * [前端开发](qian-duan-kai-fa.md)
 * [后端开发](hou-duan-kai-fa.md)
 * [运维](yun-wei.md)
-* 部署相关
+  * [Linux](yun-wei/linux.md)
+* [部署相关](bu-shu-xiang-guan.md)
 
