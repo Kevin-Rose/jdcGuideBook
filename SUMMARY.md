@@ -17,6 +17,8 @@
     * [配置SVN项目](jenkins/pei-zhi-svn-xiang-mu.md)
   * [GitCentOS](gitcentos.md)
   * [ngnix](ngnix.md)
+  * [tomcat](tomcat.md)
+    * [install](tomcat/install.md)
 * [开发环境准备](jdkan-zhuang/kai-fa-huan-jing-zhun-bei.md)
 * [部署环境准备](bu-shu-huan-jing-zhun-bei.md)
 * [前端开发](qian-duan-kai-fa.md)
