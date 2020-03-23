@@ -1,3 +1,11 @@
+**nginx安装:**
+
+1. ` yum install nginx`  
+
+nginx重启: 
+
+   2.     `nginx -s reload`
+
 nginx -s reload ：修改配置后重新加载生效
 
 nginx -s reopen ：重新打开日志文件  
@@ -31,14 +39,12 @@ kill -HUP 主进程号
 
 ```
 $ yum  -y install httpd-tool
-
 ```
 
 #### 2.设置账号密码 {#2设置账号密码}
 
 ```
 $ sudo htpasswd -c /etc/nginx/passwd username
-
 ```
 
 1. 按照提示输入密码，就在/etc/nginx目录下的passwd中保存了账号密码
@@ -46,7 +52,6 @@ $ sudo htpasswd -c /etc/nginx/passwd username
 ```
 $ more passwd 
 username:$apr1$b2RIEmiN$yxkWM7HUJb9VoyDyek4Kg0
-
 ```
 
 ## nginx配置开启验证 {#nginx配置开启验证}
@@ -58,7 +63,6 @@ location / {
     auth_basic "What are you want to do?";
     auth_basic_user_file /usr/local/nginx/passwd;
 }
-
 ```
 
 nginx -s reload ：修改配置后重新加载生效
