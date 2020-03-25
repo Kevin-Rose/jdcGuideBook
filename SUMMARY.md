@@ -15,6 +15,7 @@
   * [JenKins](jenkins.md)
     * [配置Git项目](jenkins/pei-zhi-git-xiang-mu.md)
     * [配置SVN项目](jenkins/pei-zhi-svn-xiang-mu.md)
+    * [启动项目](jenkins/qi-dong-xiang-mu.md)
   * [GitCentOS](gitcentos.md)
   * [ngnix](ngnix.md)
   * [tomcat](tomcat.md)
