@@ -1,6 +1,6 @@
-经常运行过程中出现
 
-Liquibase - Waiting for changelog lock
+
+1. ### 经常运行过程中出现 Liquibase - Waiting for changelog lock
 
 Waiting for changelog lock....
 
@@ -25,6 +25,4 @@ UPDATE DATABASECHANGELOGLOCK
 SET locked=0, lockgranted=null, lockedby=null
 
 WHERE id=1
-
-
 
