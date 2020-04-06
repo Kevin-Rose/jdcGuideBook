@@ -32,4 +32,5 @@
   * [Mall](qian-duan-bu-shu/mall.md)
   * [Wechat](qian-duan-bu-shu/wechat.md)
 * [服务端](fu-wu-duan.md)
+* [FAQ](faq.md)
 
