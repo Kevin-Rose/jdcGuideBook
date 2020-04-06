@@ -29,5 +29,7 @@
 * [部署相关](bu-shu-xiang-guan.md)
 * [前端部署](qian-duan-bu-shu.md)
   * [AdminConsole](qian-duan-bu-shu/adminconsole.md)
+  * [Mall](qian-duan-bu-shu/mall.md)
+  * [Wechat](qian-duan-bu-shu/wechat.md)
 * [服务端](fu-wu-duan.md)
 
