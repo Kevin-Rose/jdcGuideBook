@@ -28,5 +28,6 @@
   * [Linux](yun-wei/linux.md)
 * [部署相关](bu-shu-xiang-guan.md)
 * [前端部署](qian-duan-bu-shu.md)
+  * [AdminConsole](qian-duan-bu-shu/adminconsole.md)
 * [服务端](fu-wu-duan.md)
 
