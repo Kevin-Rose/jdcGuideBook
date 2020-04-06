@@ -1,5 +1,3 @@
-
-
 1. ### 经常运行过程中出现 Liquibase - Waiting for changelog lock
 
 Waiting for changelog lock....
@@ -13,10 +11,6 @@ Running the migration script for a database may produce this:
 USE \[Database Name\]
 
 SELECT \* FROM DATABASECHANGELOGLOCK;
-
-1
-
-2
 
 一般情况下是本机锁住的；则通过下面sql解锁
 
