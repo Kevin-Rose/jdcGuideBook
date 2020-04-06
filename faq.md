@@ -20,7 +20,7 @@ SET locked=0, lockgranted=null, lockedby=null
 
 WHERE id=1
 
-
+# LiquiBase实战总结https://blog.csdn.net/Netbug\_NB/article/details/40075493?depth\_1-utm\_source=distribute.pc\_relevant.none-task-blog-BlogCommendFromBaidu-10&utm\_source=distribute.pc\_relevant.none-task-blog-BlogCommendFromBaidu-10
 
 
 
