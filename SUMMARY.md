@@ -33,4 +33,7 @@
   * [Wechat](qian-duan-bu-shu/wechat.md)
 * [服务端](fu-wu-duan.md)
 * [FAQ](faq.md)
+* [chatterbot](chatterbot.md)
+* [setup](setup.md)
+* [NLTK](nltk.md)
 
