@@ -37,5 +37,6 @@
 * [setup](setup.md)
 * [NLTK](nltk.md)
 * [openfire](openfire.md)
+  * [install](openfire/2.md)
 * [install](install.md)
 
