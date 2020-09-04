@@ -36,4 +36,6 @@
 * [chatterbot](chatterbot.md)
 * [setup](setup.md)
 * [NLTK](nltk.md)
+* [openfire](openfire.md)
+* [install](install.md)
 
