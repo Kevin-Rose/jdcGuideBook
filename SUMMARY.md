@@ -38,5 +38,6 @@
 * [NLTK](nltk.md)
 * [openfire](openfire.md)
   * [install](openfire/2.md)
+  * [maven](openfire/maven.md)
 * [install](install.md)
 
