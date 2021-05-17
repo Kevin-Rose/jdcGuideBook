@@ -1,22 +1,20 @@
-938  ps -ef\|grep jenkins
+1.  ps -ef\|grep jenkins
+    kill -9 29422
 
-939  kill -9 29422
+2.  ps -ef\|grep jenkins
 
-940  ps -ef\|grep jenkins
+3.  java -jar jenkins.war
 
-941  java -jar jenkins.war
+4. nohup java -jar jenkins.war
 
-nohup java -jar jenkins.war
+5. \[root@jdc ~\]\# cd /root/web/jenkins/
 
-\[root@jdc ~\]\# cd /root/web/jenkins/
+6. \[root@jdc jenkins\]\# nohup java -jar jenkins.war
 
-\[root@jdc jenkins\]\# nohup java -jar jenkins.war
+7. nohup: ignoring input and appending output to ‘nohup.out’
 
-nohup: ignoring input and appending output to ‘nohup.out’
+   
 
-
-
-
-
+   
 
 
