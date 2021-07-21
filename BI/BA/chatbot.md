@@ -150,9 +150,46 @@
 
 ​     是不是培训不到位
 
-### 3.14 用户的粘性度，应用或者意图的粘性度
+### 3.14 用户的粘性度，应用或者意图的粘性度分析
+
+
 
 ### 3.15  基础用户的地理位置的分析
 
 ​     哪些大区，哪些部门的访问量比较高，哪些比较低
+
+### 3.16  个性化的消息推送
+
+对应的
+
+### 3.17  应用和remedy的比较
+
+目前的意图和应用系统的匹配，Remedy的Case的统计，比如Remedy的某些应用的模块Case减少了，
+
+是不是用户都来诺诺里面解决了。
+
+### 3.18 LUIS的应用与应用系统的关系
+
+目前意图都是按照LUIS的应用，怎么去映射到业务系统上面去，比如AMS，OCE
+
+
+
+- hour 小时
+
+- day 天
+
+- week 周
+
+- month 月
+
+## 4. 方案选项
+
+1.数据安全 
+
+
+
+
+
+"SN"	"ID"	"User ID"	"User Name"	"Question"	"Created Date"	"Created Time"	"Application ID"	"Application Name"	"Intent Name"	"Answer 8"	"Answer 7"	"Intent Score"	"Answer 6"	"Answer 5"	"Answer 4"	"Answer 3"	"Answer 2"	"Answer 1"
+"189721"	"enterprisewechat|XHD|2020-01-01|00:47:28"	"enterprisewechat|XHD"	"邓旭浩"	"费用限额"	"2020-01-01"	"00:47:28"	"4aaab16c-81c7-4aa7-89c1-2b711de5df10"	"FIN_01"	"标准_费用标准"	\N	\N	"0.865329"	\N	\N	\N	\N	\N	\N
 

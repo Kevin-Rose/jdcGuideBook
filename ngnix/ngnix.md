@@ -199,5 +199,34 @@ nginx -s reload  ：修改配置后重新加载生效
 
 
 
+一、查看 nginx 安装目录
+
+```
+ps -ef | grep nginx
+```
+
+ 
+
+二、查看配置文件 nginx.conf 路径 
+
+```
+nginx -t
+```
+
+这条命令也可以用于检查配置文件是否正确。
+
+ 
+
+当然也可以使用 find 命令进行文件查找
+
+```
+# 从 / 根目录下查找文件名为 nginx.conf 的文件
+find / -name nginx.conf
+# 从 /etc 目录下查找文件名为 nginx.conf 的文件
+find /etc -name nginx.conf
+```
+
+
+
 
 

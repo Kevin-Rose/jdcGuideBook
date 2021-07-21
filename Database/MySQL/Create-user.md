@@ -41,11 +41,8 @@ GRANT ALL PRIVILEGES  ON db_chatbot_admin.* TO "db_chatbot_admin_root"@'%';
 ```
 
 ```
-SELECT *
-FROM
-  `chat`.`chat_log_bi` 
-  WHERE YEAR(STR_TO_DATE(`chat`.`chat_log_bi`.`Created Date`, '%Y-%m-%d %H'))
-  =2021
+SELECT *FROM`chat`.`chat_log_bi` 
+  WHERE YEAR(STR_TO_DATE(`chat`.`chat_log_bi`.`Created Date`, '%Y-%m-%d %H'))=2021
 
 ## #4.刷
 npm --registry https://registry.npm.taobao.org install
